@@ -11,7 +11,7 @@ class Note {
 }
 
 function createNewNote() {
-    var newdiv = document.createElement("div");
+    let newdiv = document.createElement("div");
     newdiv.innerText = "NEW NOTE";
     newdiv.classList.add("note");
     document.getElementById("note-container").appendChild(newdiv);
